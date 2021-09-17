@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.nav_collectios {
+  display: flex;
+  flex-direction: row;
+}
+nav {
+  background: #123451;
+  height: 6rem;
+}
+.left_nav_items {
+  display: flex;
+  margin-right: 6rem;
+  color: #fff;
+}
+.left_nav_items > img {
+  position: relative;
+  left: 20px;
+  top: 10px;
+  bottom: 10px;
+  margin-right: 2rem;
+  border-radius: 26px;
+}
+.right_nav_items {
+  margin-top: 2.5rem;
+  color: #fff;
+}
+.right_nav_items > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border-right: 4px solid gray;
+}
+.right_nav_items > a:last-child {
+  border-right: none;
+}
+a:hover {
+  color: gold;
+}
+
+.component_container {
+  padding: 5rem;
+  max-width: 100%;
+  background-color: brown;
+}
+
+.operations__Content_container {
+  display: flex;
+
+  margin-top: 2rem;
+  padding: 3rem;
+}
+.operations__Content {
+  margin-right: 2rem;
+  background-color: #f7f8f8;
+  padding: 12px;
+  border-radius: 26px;
+}
+
+.content__header {
+  font-size: 20px;
+}
+.operations_container {
+  padding-left: 15rem;
+}
+.operations__button {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 26px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 1rem;
+  cursor: pointer;
+  background-color: orange;
+}
+.operations__button:hover {
+  background-color: green;
+  color: white;
+}
+/* .hidden {
+  display: none;
+} */
+.service_sec {
+  background-color: #f7f8f8;
+  padding: 5rem;
+}
+.service_sec > h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 35px;
+}
+.orange {
+  color: orange;
+}
+.main_div {
+  display: flex;
+}
+.service_container {
+  margin-right: 4rem;
+  text-align: center;
+  /* background-color: brown; */
+  border-radius: 30px;
+}
+.service_container p {
+  color: #000;
+}
+.service_heading {
+  text-align: center;
+}
+
+.footer_item > svg {
+  width: 80px;
+}
+.footer_collections {
+  display: flex;
+  background-color: #123451;
+  padding-left: 6rem;
+  color: #fff;
+}
+.footer_item {
+  margin-right: 7rem;
+  margin-top: 2rem;
+}
+.footer_text {
+  margin-top: 3rem;
+}

@@ -50,7 +50,7 @@ a:hover {
 }
 
 .operations__Content_container {
-  display: flex;
+  display: grid;
 
   margin-top: 2rem;
   padding: 3rem;
